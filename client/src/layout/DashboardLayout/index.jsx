@@ -1,11 +1,11 @@
 import React from "react";
-import {Col, Container, Row} from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 import SidebarLink from "../../common/components/Shared/SidebarLink";
-import {useDispatch} from "react-redux";
-import {logout} from "../../features/user/userSlice";
+import { useDispatch } from "react-redux";
+import { logout } from "../../features/user/userSlice";
 import Sidebar from "../../common/components/Shared/Sidebar";
-import {RiCoupon2Fill} from "react-icons/ri";
-import {FaBoxes} from "react-icons/fa";
+import { RiCoupon2Fill } from "react-icons/ri";
+import { FaBoxes } from "react-icons/fa";
 import {
   MdApps,
   MdAddPhotoAlternate,
@@ -14,7 +14,7 @@ import {
   MdAutoAwesomeMotion,
   MdLogout,
 } from "react-icons/md";
-const DashboardLayout = ({children}) => {
+const DashboardLayout = ({ children }) => {
   const dispatch = useDispatch();
 
   return (

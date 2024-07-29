@@ -6,5 +6,5 @@ dotenv.config();
 const router = express.Router();
 
 router.use(`${process.env.API_URL}`, routers);
-
+console.log(`${process.env.API_URL}`, "-----------------------------------");
 export default router;
