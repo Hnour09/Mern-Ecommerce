@@ -1,5 +1,4 @@
-## API Reference
-[API reference](https://documenter.getpostman.com/view/22360984/2s93Jut2tg)
+
 
 ## ENV
 To run this project, you will need to add the following environment variables to your .env file
